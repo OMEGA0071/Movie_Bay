@@ -103,7 +103,7 @@
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 48px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
@@ -114,6 +114,7 @@
               width: 100%;
               border-radius: 20px;
               transition:1s;
+              margin-left: 25px;
             }
             #parent2
             {
@@ -127,7 +128,7 @@
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 48px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
@@ -139,6 +140,7 @@
               width: 100%;
               border-radius: 20px;
               transition: 1s;
+              margin-left: 25px;
             }
             #parent3
             {
@@ -151,7 +153,7 @@
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 48px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
@@ -162,6 +164,7 @@
               width: 100%;
               border-radius: 20px;
               transition: 1s;
+              margin-left: 25px;
             }
             #parent4
             {
@@ -174,7 +177,7 @@
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 48px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
@@ -185,28 +188,32 @@
               width: 100%;
               border-radius: 20px;
               transition: 1s;
+              margin-left: 25px;
             }
             .react
             {
-                position: sticky;
+                
                 display: flex;
-                justify-content: center;
+                justify-content: space-evenly;
                 font-family: 'Fjalla One', sans-serif;
-                font-size: 22px;
+                font-size: 20px;
                 margin-top: 5px;
+                margin-left: 32px;
                 background-color: transparent;
                 border-radius: 20px;
                 text-decoration: none;
                 color: black;
+                /* transition: 1s; */
             }
             .react:hover
             {
-                position: sticky;
+                
                 display: flex;
                 justify-content: center;
                 font-family: 'Fjalla One', sans-serif;
                 font-size: 22px;
                 margin-top: 5px;
+                margin-left: 32px;
                 background-color: transparent;
                 border-radius: 20px;
                 text-decoration: none;
@@ -236,14 +243,54 @@
               width:107%;
               border-radius: 20px;
             }
-           
+            #page
+            {
+                height: 50px;
+                width: 100%;
+                background-color: yellow;
+            }
+           @media only screen and (max-width:390px)
+           {
+            #pic1
+            {
+              visibility: collapse;
+            }
+            #pic2
+            {
+              visibility: collapse;
+            }#pic3
+            {
+              visibility: collapse;
+            }#pic4
+            {
+              visibility: collapse;
+            }
+            .child1
+            {
+              visibility: collapse;
+            }
+            .child2
+            {
+              visibility: collapse;
+            } .child3
+            {
+              visibility: collapse;
+            } .child4
+            {
+              visibility: collapse;
+            }
+            .react
+            {
+              visibility: collapse;
+            }
+           }
         </style>
 </head>
 <body>
     <div id="Tittle"><div><center><h1>CINE BAY</h1></center></div>
     <div id="Subtittle">100% Entertainment...</div></div>
     <div id="Bar">
-    <div id="box1"><a target="_self" href="./index.html">Home</a></div>
+    <div id="box1"><a target="_self" href="./Index.html">Home</a></div>
     <div id="box2"><a target="_blank" href="./My_Project_2.html">Web-Series</a></div>
     <div id="box3">Dub-Movies</div>
     </div>
@@ -261,7 +308,7 @@
         <div class="child2"><img src="./puli.jpg"      id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/puli-meka-telugu-2023-dfv1s-watch-online.html" class="react">Puli Meka</a></div>
         <div class="child2"><img src="./atm.jpg"       id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/atm-telugu-2023-n1dfc-watch-online.html" class="react">ATM</a></div>
         <div class="child2"><img src="./anantham.jpg"  id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/anantham-telugu-2022-fs1ns-watch-online.html" class="react">Anantham</a></div>
-        <div class="child2"><img src="./family.jpg"    id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/oka-chinna-family-story-2021-watch-online.html" class="react">OkaChinna FamilyStory</a></div>
+        <div class="child2"><img src="./family.jpg"    id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/oka-chinna-family-story-2021-watch-online.html" class="react">Family Story</a></div>
         <div class="child2"><img src="./rana.jpg"      id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/rana-naidu-telugu-2023-b1fgu-watch-online.html" class="react">Rana Naidu</a></div>
         <div class="child2"><img src="./anger.jpg"     id="pic2"><a target="_blank" href="https://ww3.ibomma.tel/a/anger-tales-telugu-2023-bvr1u-watch-online.html" class="react">Anger Tales</a></div>
    </div>
@@ -276,7 +323,7 @@
    </div>
 
    <div class="parent4">
-    <div class="child4"><img src="./tank.jpg" id="pic4"><a target="_blank" href="https://ww3.ibomma.tel/a/maa-neella-tank-telugu-2022-j1aew-watch-online.html" class="react">Maa Nella Tank</a></div>
+    <div class="child4"><img src="./tank.jpg" id="pic4"><a target="_blank" href="https://ww3.ibomma.tel/a/maa-neella-tank-telugu-2022-j1aew-watch-online.html" class="react">Maa Nellatank</a></div>
     <div class="child4"><img src="./meet.jpg"id="pic4"><a target="_blank" href="https://ww3.ibomma.tel/a/meet-cute-telugu-2022-n1sdv-watch-online.html" class="react">Meet Cute</a></div>
     <div class="child4"><img src="./baker.jpg"      id="pic4"><a target="_blank" href="https://ww3.ibomma.tel/a/the-baker-and-the-beauty-2021-watch-online.html" class="react">Baker&Beauty</a></div>
     <div class="child4"><img src="./Addham-1.jpg"id="pic4"><a target="_blank" href="https://ww3.ibomma.tel/a/addham-telugu-watch-online.html" class="react">Addham</a></div>

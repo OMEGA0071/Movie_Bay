@@ -13,7 +13,7 @@
     
            *
             {
-              margin: 0px;
+              margin:0px;
               padding: 0px;
               background-color: rgba(0, 0, 0, 0.768);
             }
@@ -96,15 +96,16 @@
             {
              height: 100%;
              width: 100%;
-             display: inline-flex;
+             display: flexbox;
+             justify-content: space-evenly;
              background-color:transparent;
             }
             .child1
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
                 float: left;
+                margin: 45px 30px 20px 20px;
                 background-color: transparent;
                 border-radius: 20px;
             }
@@ -114,12 +115,14 @@
               width: 100%;
               border-radius: 20px;
               transition:1s;
+              margin-left: 25px;
             }
             #parent2
             {
              height: 100%;
              width: 100%;
-             display: inline-flex;
+             display: flexbox;
+             justify-content: space-evenly;
              background-color:transparent;
              
             }
@@ -127,11 +130,10 @@
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 45px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
-                
             }
             #pic2
             {
@@ -139,19 +141,21 @@
               width: 100%;
               border-radius: 20px;
               transition: 1s;
+              margin-left: 25px;
             }
             #parent3
             {
              height: 100%;
              width: 100%;
-             display: inline-flex;
+             display: flexbox;
+             justify-content: space-evenly;
              background-color:transparent;
             }
             .child3
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 45px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
@@ -162,19 +166,21 @@
               width: 100%;
               border-radius: 20px;
               transition: 1s;
+              margin-left: 25px;
             }
             #parent4
             {
              height: 100%;
              width: 100%;
-             display: inline-flex;
+             display: flexbox;
+             justify-content: space-evenly;
              background-color:transparent;
             }
             .child4
             {
                 height: 200px;
                 width: 13%;
-                margin: 30px 30px 20px 20px;
+                margin: 45px 30px 20px 20px;
                 float: left;
                 background-color: transparent;
                 border-radius: 20px;
@@ -185,15 +191,17 @@
               width: 100%;
               border-radius: 20px;
               transition: 1s;
+              margin-left: 25px;
             }
             .react
             {
-                position: sticky;
+               
                 display: flex;
                 justify-content: center;
                 font-family: 'Fjalla One', sans-serif;
-                font-size: 22px;
+                font-size: 20px;
                 margin-top: 5px;
+                margin-left:30px;
                 background-color: transparent;
                 border-radius: 20px;
                 text-decoration: none;
@@ -201,12 +209,13 @@
             }
             .react:hover
             {
-                position: sticky;
+               
                 display: flex;
                 justify-content: center;
                 font-family: 'Fjalla One', sans-serif;
                 font-size: 22px;
                 margin-top: 5px;
+                margin-left:25px;
                 background-color: transparent;
                 border-radius: 20px;
                 text-decoration: none;
@@ -236,25 +245,55 @@
               width:107%;
               border-radius: 20px;
             }
-            #page
+           @media only screen and (max-width:390px)
+           {
+            #pic1
             {
-                height: 50px;
-                width: 100%;
-                background-color: yellow;
+              visibility: collapse;
             }
+            #pic2
+            {
+              visibility: collapse;
+            }#pic3
+            {
+              visibility: collapse;
+            }#pic4
+            {
+              visibility: collapse;
+            }
+            .child1
+            {
+              visibility: collapse;
+            }
+            .child2
+            {
+              visibility: collapse;
+            } .child3
+            {
+              visibility: collapse;
+            } .child4
+            {
+              visibility: collapse;
+            }
+            .react
+            {
+              visibility: collapse;
+              margin-left: 27px;
+            }
+           }
         </style>
 </head>
 <body>
     <div id="Tittle"><div><center><h1>CINE BAY</h1></center></div>
     <div id="Subtittle">100% Entertainment...</div></div>
     <div id="Bar">
-    <div id="box1"><a target="_blank" href="./index.html">Home</a></div>
+    <div id="box1"><a target="_parent" href="./Index.html">Home</a></div>
     <div id="box2"><a target="_blank" href="./My_Project_2.html">Web-Series</a></div>
     <div id="box3">Dub-Movies</div>
     </div>
 
  <div class="parent1">
-    <div class="child1"><img src="./balagam.jpg"     id="pic1"><a target="_blank" href="https://www.ibomma.net/d/balagam-telugu-dft1b-watch-online.html" class="react">Balagam</a></div>
+    <div class="child1"><img src="./balagam.jpg"     id="pic1"><a target="_blank" href="https://ww3.ibomma.tel/a/balagam-telugu-saf1q-watch-online.html" class="react">Balagam</a></div>
     <div class="child1"><img src="./ranga.jpg"       id="pic1"><a target="_blank" href="https://www.ibomma.net/d/ranga-maarthaanda-telugu-2023-srd1k-watch-online.html" class="react">Rangamarthanda</a></div>
     <div class="child1"><img src="./Panchatantra.jpg"id="pic1"><a target="_blank" href="https://www.ibomma.net/d/panchatantram-telugu-2022-b1trd-watch-online.html" class="react">Panchatantra</a></div>
     <div class="child1"><img src="./damki.jpg"       id="pic1"><a target="_blank" href="https://www.ibomma.net/d/das-ka-dhamki-telugu-2023-t1gcv-watch-online.html" class="react">Das ka Damki</a></div>
